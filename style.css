@@ -1,9 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.amiri-bold {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 :root {
     --green-hover: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 20%);
     --grey-400: hsl(0, 0%, 12%);
     --grey-700: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid var(--grey);
+    background: var(--grey-700);
+    ;
+    padding: 3px;
+    margin-block-end: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid var(--green-hover);
+    object-fit: cover;
 }
