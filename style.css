@@ -83,6 +83,8 @@ body {
 
 .card-img-top:hover {
     background-color: var(--grey-700);
+    cursor: pointer;
+    border: 2px solid var(--green-hover);
 }
 
 .card-img-top:focus {
