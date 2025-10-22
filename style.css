@@ -30,6 +30,10 @@ body {
     font-size: 14px;
     text-align: center;
     background: var(--grey-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card-profile {
@@ -151,23 +155,6 @@ body {
     text-decoration: none;
     color: var(--white);
     font-weight: 700;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    color: var(--white);
-    background: linear-gradient(to right, var(--grey-400), hsl(280, 14%, 17%), hsl(278, 23%, 22%));
-    font-family: "Inter", sans-serif;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    padding-inline: 40px;
-    padding-block: 10px;
-}
-
-.attribution a {
-    color: var(--white);
-    text-decoration: none;
 }
 
 @media (min-width: 90rem) {
